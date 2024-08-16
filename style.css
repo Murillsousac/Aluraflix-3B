@@ -1,0 +1,60 @@
+ 
+ .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ body{
+    background-color: black;
+ }
+
+ .chamada-titulo {
+    color: white;
+    text-align: center;
+    font-style: normal ;
+    font-family: sans-serif;
+    border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+.chamada-header {
+    font-size: 30px;
+    font-family: "Bebas Neue",sans-serif;  
+    color: red; 
+    text-align: center;
+}
+
+
+ .chamada-video {
+    margin-left: 45vw;
+    transform: translate(-50%);
+}
+
+
+.categoria{
+   color: white;
+    text-align: center;
+    font-style: normal ;
+    font-family: sans-serif;
+    border-top: solid 2px rgb(255, 255, 255);
+}
+
+.categoria-videos {
+   display: flex;
+   overflow-x: auto;
+   gap: 10px;
+}
+
+.categoria-videos img {
+   opacity: 0.5;
+   height: 200px;
+}
+
+.categoria-videos img:hover {
+   opacity: 1.0;
+   border: 3px solid green;
+}
+
+.categoria h2 {
+   color: rgb(42, 122, 228);
+}
